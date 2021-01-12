@@ -1,0 +1,618 @@
+h1 {
+    font-size: 65px;
+}
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 45px;
+}
+h3 {
+    padding: 15px;
+    font-size: 35px;
+}
+
+header {
+    min-height: 475px;
+}
+
+header .row {
+    min-height: 475px;
+    background-image: url("image/bkgd.png");
+    background-size: 100%;
+    align-items: top;
+}
+
+header #main-title {
+    background-color: rgba(255,255,255,0.6);
+    min-height: 475px;
+    display: flex;
+    align-items: center;
+}
+
+header .row #logo {
+    min-height: 475px;
+    background-color: rgba(255,255,255,0);
+}
+
+header .row #logo img {
+    position: relative;
+    padding: 15px;
+    height: 150px;
+    margin-top: 10px;
+    left: 80%;
+    background-color: rgba(255,255,255,0.6);
+}
+
+#intro-text {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 60px;
+    margin-bottom: 75px;
+    font-size: 20px;
+}
+
+#nav .row {
+    margin-top: -80px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.info {
+    height: 140px;
+}
+.info a:any-link {
+    color: black;
+    text-decoration: none;
+}
+.info a:hover {
+    color: #8182e0;
+}
+
+.info .nav_met{
+    background-color: rgba(220,220,220,0.8);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5%;
+    width: 98%;
+    min-height: 90%;
+    padding: 7.5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+.info .nav_met:hover {
+    position: relative;
+    background-color: rgb(240,240,240);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    z-index: 20;
+}
+
+.info .nav_met p {
+    overflow-wrap: break-word;
+    font-size: 24px;
+}
+
+.metier .row {
+    height: 400px;
+}
+
+.metier .row .media{
+    background-color:#8182e0;
+    padding: 25px;
+}
+
+.metier #metier1 .media {
+    background-image: url("image/developpeur_web.jpg");
+    background-repeat: no-repeat;
+    background-size: 117%;
+    border: 1rem solid #8182e0;   
+/*    https://www.sencampus.com/metier/bio-informaticien/*/
+}
+
+.metier #metier2 .media {
+    background-image: url("image/bio_informaticien.jpg");
+    background-repeat: no-repeat;
+    background-size: 117%;
+    border: 1rem solid #8182e0;   
+/*    https://www.sencampus.com/metier/bio-informaticien/*/
+}
+
+.metier #metier3 .media {
+    background-image: url("image/data_analyst.jpg");
+    background-repeat: no-repeat;
+    background-size: 117%;
+    border: 1rem solid #8182e0;
+}
+
+.metier #metier4 .media {
+    background-image: url("image/game_designer.jpg");
+    background-repeat: no-repeat;
+    background-size: 117%;
+    border: 1rem solid #8182e0;   
+/*    Image: Gorodenkoff - Fotolia */
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    border: 0.5px solid black;
+}
+
+.metier_info {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 85%;
+}
+
+.metier_info .text_overview {
+    font-size: 19px;
+}
+
+.fsp .row {
+    height: 105px;
+}
+
+.fsp .row .text_extra {
+    font-size: 17.5px;
+}
+
+.fsp .row .formation {
+  background-color: rgb(230,230,230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fsp .row .salaire {
+  background-color: rgb(245,245,245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fsp .row .evolution {
+  background-color: rgb(230,230,230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(250,250,250);
+}
+
+
+/* ===================== 1200 px ===================== */
+@media (max-width: 1200px) {
+    header .row #logo img {
+        height: 150px;
+        left: 60%;
+    }
+    
+    .metier .row {
+        height: 450px;
+    }
+    
+    .metier #metier1 .media {
+        background-size: 155%;
+    }
+
+    .metier #metier2 .media {
+        background-size: 155%;
+    }
+
+    .metier #metier3 .media {
+        background-size: 155%;
+        background-position-x: -125px;
+    }
+
+    .metier #metier4 .media {
+        background-size: 155%;
+    }
+}
+
+/* ===================== 992 px ===================== */
+@media (max-width: 992px) {
+    header .row #logo img {
+        height: 150px;
+        left: 50%;
+    }
+    
+    header .row {
+        min-height: 500px;
+        background-size: 125%;
+    }
+    
+    header .row #logo {
+        background-color: rgba(255,255,255,0);
+    }
+    
+    .metier .row {
+        height: 640px;
+    }
+    
+    .metier .row .media {
+        height: 290px;
+    }
+
+    .metier #metier1 .media {
+        background-size: 100%;
+        background-position-y: -75px;
+    }
+
+    .metier #metier2 .media {
+        background-size: 100%;
+        background-position-y: -25px;
+    }
+
+    .metier #metier3 .media {
+        background-size: 100%;
+        background-position-y: -70px;
+    }
+
+    .metier #metier4 .media {
+        background-size: 100%;
+        background-position-y: -60px;
+    }
+}
+
+/* ===================== 768 px ===================== */
+@media (max-width: 768px) {
+    header {
+        min-height : 450px;
+    }
+    
+    header .row {
+        min-height: 450px;
+        background-size: 152%;
+    }
+    
+    header #main-title {
+        min-height: 450px;
+    }
+    
+    header .row #logo img {
+        height: 125px;
+        left: 45%;
+        background-color: rgba(255,255,255,0);
+    }
+    
+    header .row #logo {
+        min-height: 450px;
+        background-color: rgba(255,255,255,0.6);
+    }
+    
+    .info {
+        margin-bottom: 50px;
+    }
+    
+    .info .nav_met{
+        padding: 5px;
+    }
+    
+    #intro-text {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    #nav {
+        height: 225px;
+    }
+    
+    #nav .row {
+        margin-top: -70px;
+    }
+    
+    .metier .row {
+        height: 800px;
+    }
+    
+    .metier .row .media {
+        background-color: cornflowerblue;
+        padding: 25px;
+        height: 380px;
+    }
+    
+    .fsp .row {
+        height: 400px;
+        text-align: center;
+    }
+    
+    .info {
+        height: 75px;
+    }
+    
+    .info .nav_met{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5%;
+        width: 96%;
+        min-height: 90%;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
+    h3 {
+        font-size: 40px;
+    }
+    
+    footer .text-center {
+        margin-top: -50px;
+    }
+}
+
+/* ===================== 576 px ===================== */
+@media (max-width: 576px) {
+    header {
+        min-height : 400px;
+    }
+    
+    header .row {
+        min-height: 400px;
+        width: 170%;
+    }
+    
+    header #main-title {
+        min-height: 500px;
+    }
+
+    header .row #logo img {
+        padding: 10px;
+        height: 120px;
+        left: 40%;
+    }
+    
+    #intro-text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    #nav {
+        height: 500px;
+    }
+    
+    #nav .row {
+        margin-top: -75px;
+    }
+    
+    .metier .row {
+        height: 875px;
+    }
+    
+    .metier .row .media {
+        height: 200px;
+    }
+    
+    h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    
+    h2 {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+}
+
+/*--------------------------- Footer----------------------------------------*/
+
+.site-footer
+{
+  background-color:#8182e0;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:black;
+}
+
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+
+.site-footer hr.small
+{
+  margin:20px 0
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.site-footer a
+{
+  color:black;
+}
+
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+
+.footer-links li
+{
+  display:block
+}
+
+.footer-links a
+{
+  color:black
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.footer-links.inline li
+{
+  display:inline-block
+}
+
+.site-footer .social-icons
+{
+  text-align:right
+}
+
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color: white
+}
+
+.copyright-text
+{
+  margin:0
+}
+
+
+
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+
+
+/* ===================== Footer : 767 px ===================== */
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:white;
+  font-weight:700;
+  font-size:13px
+}
+
+.social-icons a{
+  background-color:#eceeef;
+  color:white;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+
+
+/* ===================== Footer : 576 px ===================== */
+@media (max-width:576px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+.social-icons a.facebook
+{
+  background: url("image/facebook.png");
+  background-size: 90%;
+  background-color:#3b5998
+}
+
+.social-icons a.twitter
+{
+    background: url("image/twitter.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 5.1px;
+    background-color:#00aced
+
+}
+
+.social-icons a.linkedin
+{
+    background: url("image/linkedin.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 5.1px;
+    background-color:#007bb6
+}
+
+.social-icons a.youtube
+{
+    background: url("image/youtube.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 5.1px;
+    background-color:#ea4c89
+}
+
+
